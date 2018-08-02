@@ -1,5 +1,7 @@
 # filehawk
 
+[![Build status](https://ci.appveyor.com/api/projects/status/wye556v4eod730pe?svg=true)](https://ci.appveyor.com/project/warrengalyen/filehawk/branch/master)
+
 A small and modern C++ wrapper for OS file monitoring systems. Currently it uses Win32 `ReadDirectoryChangesW` for monitoring changes in Windows. OSX is supported via `kqueue`s and directory scans.
 
 `filehawk` is a modern C++ wrapper for the `SimpleFileWatcher` library originally built by James Wynn.
